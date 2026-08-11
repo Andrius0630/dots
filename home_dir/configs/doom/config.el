@@ -150,6 +150,36 @@
 (map! :v "C-b" (cmd! (execute-kbd-macro "S*")))
 (setq confirm-kill-processes nil)
 
+;; tab-bar tabs are the only in-frame view mechanism now (no workspace
+;; layer): sessions/projects will be real niri-tiled frames instead.
+(tab-bar-mode 1)
+
+;; Workspaces module is disabled, so Doom's own conditional M-1..M-9
+;; default (+workspace/switch-to-N, only active when :ui workspaces is
+;; enabled) is out of the way. Bound bare via map! (-> general-override-
+;; mode-map) rather than tab-bar-select-tab-modifiers (-> plain
+;; tab-bar-mode-map), since the latter loses to any mode-local evil
+;; keymap. If some mode still intercepts these (org/markdown did for
+;; M-RET, via a real, unconditional org-mode binding), report back.
+(map! "M-1" #'tab-bar-select-tab
+      "M-2" #'tab-bar-select-tab
+      "M-3" #'tab-bar-select-tab
+      "M-4" #'tab-bar-select-tab
+      "M-5" #'tab-bar-select-tab
+      "M-6" #'tab-bar-select-tab
+      "M-7" #'tab-bar-select-tab
+      "M-8" #'tab-bar-select-tab
+      "M-9" #'tab-last
+      "M-0" #'tab-recent)
+
+;; M-RET is org-mode/markdown-mode's own "insert heading" binding
+;; (evil-collection wires it mode-locally, unconditionally -- unrelated
+;; to workspaces), so tab creation stays on leader to avoid that fight.
+(map! :leader
+      (:prefix ("v" . "tab")
+       :desc "New tab"   "n" #'tab-bar-new-tab
+       :desc "Close tab" "c" #'tab-bar-close-tab))
+
 (setq org-download-method 'attach) ; Uses Org's built-in attachment system
 (setq org-download-image-dir "./images") ; Or any path you prefer
 (setq org-download-heading-lvl nil)

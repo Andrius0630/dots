@@ -38,7 +38,7 @@
         "id": "pulse_input_capture",
         "versioned_id": "pulse_input_capture",
         "settings": {
-            "device_id": "alsa_input.usb-Apple__Inc._EarPods_JHHJHXK9MR-00.mono-fallback"
+            "device_id": "default"
         },
         "mixers": 255,
         "sync": 0,

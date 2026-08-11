@@ -1,13 +1,13 @@
 AlsoSaveAsKra=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.18696100204699892
+ArtColorSel.Light=0
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0.6162790697674418
-ArtColorSel.SelColorS=0.1514291987467981
-ArtColorSel.SelColorX=0.18696100204699892
+ArtColorSel.SelColorH=0
+ArtColorSel.SelColorS=0
+ArtColorSel.SelColorX=0
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -37,10 +37,10 @@ Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
 LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
-LastColorHistory=<!DOCTYPE LastColorHistory>\n<colors>\n <RGB b="0.20392157137394" g="0.172549024224281" r="0.156862750649452" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</colors>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.20392157137394" g="0.172549024224281" r="0.156862750649452" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
+LastColorHistory=<!DOCTYPE LastColorHistory>\n<colors>\n <RGB b="0" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.20392157137394" g="0.172549024224281" r="0.156862750649452" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</colors>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
 LastPreset=b) Basic-1
-LastPreset_-1=a) Eraser Circle
+LastPreset_-1=b) Basic-1
 LineSmoothingDelayDistance=50
 LineSmoothingDistance=50
 LineSmoothingDistanceKeepAspectRatio=true
@@ -98,8 +98,8 @@ internal_selector_active_color_set=Animation Color Set
 internal_selector_active_color_set_md5=8e071366587a400f1db855c27014a5ec
 levelOfDetailEnabled=false
 logviewer_enabled=false
-moveToolChangedValueX=192
-moveToolChangedValueY=162
+moveToolChangedValueX=649
+moveToolChangedValueY=517
 moveToolUnit=0
 numberOfOnionSkins=10
 oninSkinTintColorForward=0,255,0

@@ -249,6 +249,15 @@ require("lazy").setup({
         opts = {}
     },
     {
+        'mrcjkb/rustaceanvim',
+        -- To avoid being surprised by breaking changes,
+        -- I recommend you set a version range
+        version = '^9',
+        -- This plugin implements proper lazy-loading (see :h lua-plugin-lazy).
+        -- No need for lazy.nvim to lazy-load it.
+        lazy = false,
+    },
+    {
         "kylechui/nvim-surround",
         version = "^3.0.0", -- Use for stability; omit to use main branch for the latest features
         event = "VeryLazy",

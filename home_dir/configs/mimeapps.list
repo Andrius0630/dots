@@ -65,7 +65,10 @@ video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/http=librewolf.desktop;
 x-scheme-handler/https=librewolf.desktop;
-x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-DJMGS3.desktop;org.mozilla.Thunderbird.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-DJMGS3.desktop;
+message/rfc822=userapp-Thunderbird-DJMGS3.desktop;
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-JWUES3.desktop;
 
 [Default Applications]
 application/octet-stream=veracrypt.desktop;
@@ -135,5 +138,8 @@ video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/claude-cli=claude-code-url-handler.desktop
 x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
-x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-DJMGS3.desktop
 x-scheme-handler/claude=claude-desktop.desktop
+x-scheme-handler/mid=userapp-Thunderbird-DJMGS3.desktop
+message/rfc822=userapp-Thunderbird-DJMGS3.desktop
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-JWUES3.desktop
