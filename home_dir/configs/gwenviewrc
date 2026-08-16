@@ -1,32 +1,32 @@
 [General]
 LastUsedVersion=210800
+SideBarPage=operations
 
 [MainWindow]
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (95%).ico
-File10[$e]=$HOME/Tmp/chaining_branching_architecture.svg
-File2[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (100%).ico
-File3[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Beizer.ico
-File4[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/Microagents.svg
-File5[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/execution_model.svg
-File6[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/workflow2.png
-File7[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/NLDDRzim3BthLn0vTEqXBlOD5CNG9ccn0YaQ9C5sM7TWPIOs8akUHAS9XlttKV97Y_f4YdoFv2Dz5HWzDvLHOLVQ6ZrMe5rLEqkMLtmq19uqezqQKgf6lSCjmQWgjNTYMGxmu7L1WJsoyoFugq2-N-ypcBggGfkFvwKbkBDCVeEQVWC6cCxlshGF6VnqVhSnxXdcU2IVmlrJc_CnWvi3wKReKxHtskYd3AvZ7x2aRIbT75DExxGvdp.svg
-File8[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/data.svg
-File9[$e]=$HOME/.config/librewolf/librewolf/firefox-mpris/135942_8.png
-Name1[$e]=Battery Indicator (95%).ico
-Name10[$e]=chaining_branching_architecture.svg
-Name2[$e]=Battery Indicator (100%).ico
-Name3[$e]=Beizer.ico
-Name4[$e]=Microagents.svg
-Name5[$e]=execution_model.svg
-Name6[$e]=workflow2.png
-Name7[$e]=NLDDRzim3BthLn0vTEqXBlOD5CNG9ccn0YaQ9C5sM7TWPIOs8akUHAS9XlttKV97Y_f4YdoFv2Dz5HWzDvLHOLVQ6ZrMe5rLEqkMLtmq19uqezqQKgf6lSCjmQWgjNTYMGxmu7L1WJsoyoFugq2-N-ypcBggGfkFvwKbkBDCVeEQVWC6cCxlshGF6VnqVhSnxXdcU2IVmlrJc_CnWvi3wKReKxHtskYd3AvZ7x2aRIbT75DExxGvdp.svg
-Name8[$e]=data.svg
-Name9[$e]=135942_8.png
+File1[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_204952_421.jpg
+File10[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_191233.jpg
+File2[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_204956_820.jpg
+File3[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_205000_338.jpg
+File4[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221121_115853.jpg
+File5[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221122_085123.jpg
+File6[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133232.jpg
+File7[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133300.jpg
+File8[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133304.jpg
+File9[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_142039.jpg
+Name1[$e]=IMG_20250916_204952_421.jpg
+Name10[$e]=20221218_191233.jpg
+Name2[$e]=IMG_20250916_204956_820.jpg
+Name3[$e]=IMG_20250916_205000_338.jpg
+Name4[$e]=20221121_115853.jpg
+Name5[$e]=20221122_085123.jpg
+Name6[$e]=20221218_133232.jpg
+Name7[$e]=20221218_133300.jpg
+Name8[$e]=20221218_133304.jpg
+Name9[$e]=20221218_142039.jpg
 
 [SideBar]
-InformationSplitterSizes=412,477
-IsVisible ViewMode=true
+InformationSplitterSizes=220,255
 SideBarSplitterSizes=227,1692
