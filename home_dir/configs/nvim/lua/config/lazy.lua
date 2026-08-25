@@ -47,6 +47,10 @@ require("lazy").setup({
         name = "rose-pine",
         priority = 1000,
         config = function()
+            local ok, matugen_palette = pcall(require, "matugen-colors")
+            require("rose-pine").setup({
+                palette = ok and { main = matugen_palette } or {},
+            })
             vim.cmd.colorscheme("rose-pine")
 
             -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

@@ -1,4 +1,5 @@
 @theme "~/.config/rofi/themes/android_notification.rasi"
+@import "~/.config/rofi/colors-matugen.rasi"
 
 window {
     border-radius: 10px;

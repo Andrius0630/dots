@@ -6,26 +6,26 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_204952_421.jpg
-File10[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_191233.jpg
-File2[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_204956_820.jpg
-File3[$e]=$HOME/Tmp/natalija-phone-dump/memory/Pictures/Telegram/IMG_20250916_205000_338.jpg
-File4[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221121_115853.jpg
-File5[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221122_085123.jpg
-File6[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133232.jpg
-File7[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133300.jpg
-File8[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_133304.jpg
-File9[$e]=$HOME/Tmp/natalija-phone-dump/memory/DCIM/Camera/20221218_142039.jpg
-Name1[$e]=IMG_20250916_204952_421.jpg
-Name10[$e]=20221218_191233.jpg
-Name2[$e]=IMG_20250916_204956_820.jpg
-Name3[$e]=IMG_20250916_205000_338.jpg
-Name4[$e]=20221121_115853.jpg
-Name5[$e]=20221122_085123.jpg
-Name6[$e]=20221218_133232.jpg
-Name7[$e]=20221218_133300.jpg
-Name8[$e]=20221218_133304.jpg
-Name9[$e]=20221218_142039.jpg
+File1[$e]=$HOME/Downloads/Telegram Desktop/6_DataStr_BST.pdf
+File10[$e]=$HOME/Desktop/2026-08-20_22-19.png
+File2[$e]=$HOME/Downloads/Telegram Desktop/6_DataStr_Recursion.pdf
+File3[$e]=$HOME/Downloads/Telegram Desktop/7_DataStr_AVLTree.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/8_DataStr_SplayTree.pdf
+File5[$e]=$HOME/Downloads/Telegram Desktop/8_RedBlackTree.pdf
+File6[$e]=$HOME/Downloads/Telegram Desktop/9_DataStr_BTree.pdf
+File7[$e]=$HOME/Downloads/Telegram Desktop/10_DataStr_Trie.pdf
+File8[$e]=$HOME/Downloads/Telegram Desktop/11_DataStr_Graph.pdf
+File9[$e]=$HOME/Desktop/2026-07-31_18-48.png
+Name1[$e]=6_DataStr_BST.pdf
+Name10[$e]=2026-08-20_22-19.png
+Name2[$e]=6_DataStr_Recursion.pdf
+Name3[$e]=7_DataStr_AVLTree.pdf
+Name4[$e]=8_DataStr_SplayTree.pdf
+Name5[$e]=8_RedBlackTree.pdf
+Name6[$e]=9_DataStr_BTree.pdf
+Name7[$e]=10_DataStr_Trie.pdf
+Name8[$e]=11_DataStr_Graph.pdf
+Name9[$e]=2026-07-31_18-48.png
 
 [SideBar]
 InformationSplitterSizes=220,255

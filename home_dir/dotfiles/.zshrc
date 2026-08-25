@@ -74,6 +74,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+[[ -f ~/.config/zsh/colors-matugen.zsh ]] && source ~/.config/zsh/colors-matugen.zsh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -165,6 +167,27 @@ key[Delete]="${terminfo[kdch1]}"
 [[ -n "${key[End]}"    ]] && bindkey -- "${key[End]}"    end-of-line
 [[ -n "${key[Insert]}" ]] && bindkey -- "${key[Insert]}" overwrite-mode
 [[ -n "${key[Delete]}" ]] && bindkey -- "${key[Delete]}" delete-char
+
+# Terminals send Home/End as \EO.. in "application" cursor-key mode and
+# \E[.. in "normal" mode. Whichever one isn't bound leaks raw bytes into
+# ZLE, and in vi mode (bindkey -v above) those bytes get read as vi
+# commands (ESC -> command mode, then e.g. "~" toggles case). Bind both
+# variants so it works regardless of mode.
+bindkey '\EOH'  beginning-of-line
+bindkey '\EOF'  end-of-line
+bindkey '\E[H'  beginning-of-line
+bindkey '\E[F'  end-of-line
+bindkey '\E[1~' beginning-of-line
+bindkey '\E[4~' end-of-line
+bindkey '\E[2~' overwrite-mode
+bindkey '\E[3~' delete-char
+
+# Keep the terminal's cursor-key mode in sync with ZLE so Home/End/arrows
+# behave the same whether you just quit vim/fzf or opened a fresh shell.
+zle-line-init() { echoti smkx }
+zle-line-finish() { echoti rmkx }
+zle -N zle-line-init
+zle -N zle-line-finish
 
 # Bash history settings (~1GB)
 HISTSIZE=10000000

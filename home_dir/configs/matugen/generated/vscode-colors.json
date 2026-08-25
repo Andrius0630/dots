@@ -1,0 +1,21 @@
+{
+  "titleBar.activeBackground": "#1e1f25",
+  "titleBar.activeForeground": "#e2e2e9",
+  "activityBar.background": "#121318",
+  "activityBar.foreground": "#e2e2e9",
+  "activityBarBadge.background": "#afc6ff",
+  "activityBarBadge.foreground": "#142f60",
+  "sideBar.background": "#1a1b20",
+  "sideBar.foreground": "#e2e2e9",
+  "statusBar.background": "#1e1f25",
+  "statusBar.foreground": "#e2e2e9",
+  "editor.background": "#121318",
+  "editor.foreground": "#e2e2e9",
+  "tab.activeBackground": "#282a2f",
+  "tab.inactiveBackground": "#1a1b20",
+  "focusBorder": "#afc6ff",
+  "button.background": "#afc6ff",
+  "button.foreground": "#142f60",
+  "list.activeSelectionBackground": "#2d4578",
+  "list.activeSelectionForeground": "#d9e2ff"
+}

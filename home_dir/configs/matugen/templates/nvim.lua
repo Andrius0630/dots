@@ -1,0 +1,17 @@
+return {
+  base = "{{colors.surface.default.hex}}",
+  surface = "{{colors.surface_container.default.hex}}",
+  overlay = "{{colors.surface_container_high.default.hex}}",
+  muted = "{{colors.on_surface_variant.default.hex}}",
+  subtle = "{{colors.outline.default.hex}}",
+  text = "{{colors.on_surface.default.hex}}",
+  love = "{{colors.error.default.hex}}",
+  gold = "{{colors.tertiary.default.hex}}",
+  rose = "{{colors.secondary.default.hex}}",
+  pine = "{{colors.primary.default.hex}}",
+  foam = "{{colors.primary_container.default.hex}}",
+  iris = "{{colors.tertiary_container.default.hex}}",
+  highlight_low = "{{colors.surface_container_low.default.hex}}",
+  highlight_med = "{{colors.surface_container.default.hex}}",
+  highlight_high = "{{colors.surface_container_highest.default.hex}}",
+}

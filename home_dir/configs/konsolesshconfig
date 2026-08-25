@@ -11,6 +11,16 @@ sshkey=
 useSshConfig=true
 username=andrey
 
+[SSH Config][mikrotik]
+hostname=10.0.30.1
+identifier=mikrotik
+importedFromSshConfig=true
+port=20630
+profileName=
+sshkey=
+useSshConfig=true
+username=admin
+
 [SSH Config][robotukas]
 hostname=193.219.91.104
 identifier=robotukas
@@ -20,6 +30,16 @@ profileName=
 sshkey=
 useSshConfig=true
 username=anko1276
+
+[SSH Config][truenas]
+hostname=10.0.10.245
+identifier=truenas
+importedFromSshConfig=true
+port=20630
+profileName=
+sshkey=
+useSshConfig=true
+username=truenas_admin
 
 [SSH Config][uosis]
 hostname=uosis.mif.vu.lt

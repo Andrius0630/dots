@@ -14,8 +14,8 @@ Show welcome view for new window=false
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Auto Color Theme Selection=true
-Color Theme=Breeze Dark
+Auto Color Theme Selection=false
+Color Theme=Matugen
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -33,6 +33,7 @@ Word Wrap Marker=false
 2 screens: Window-Maximized=true
 3 screens: Height=661
 3 screens: Width=1112
+ToolBarsMovable=Enabled
 
 [filetree]
 editShade=70,53,111

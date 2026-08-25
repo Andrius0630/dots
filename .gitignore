@@ -1,1 +1,10 @@
 home_dir/configs/obs-studio/logs/
+
+# matugen-generated theme files
+# home_dir/configs/kitty/colors-matugen.conf
+# home_dir/configs/tmux/colors-matugen.conf
+# home_dir/configs/nvim/lua/matugen-colors.lua
+# home_dir/configs/dunst/dunstrc.d/50-matugen.conf
+# home_dir/configs/polybar/colors-matugen.ini
+# home_dir/configs/rofi/colors-matugen.rasi
+# home_dir/configs/matugen/generated/

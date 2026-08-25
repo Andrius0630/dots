@@ -1,3 +1,6 @@
+[Compositing]
+AnimationSpeed=3
+
 [Desktops]
 Id_1=00f84bf3-1096-4f51-b533-c9b54475318b
 Id_2=f6e3f526-9c08-493e-b907-90dca65b093b
@@ -178,4 +181,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 DelayFocusInterval=0
 
 [Xwayland]
-Scale=1
+Scale=1.5
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze

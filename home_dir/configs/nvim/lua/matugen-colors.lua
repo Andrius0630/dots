@@ -1,0 +1,17 @@
+return {
+  base = "#121318",
+  surface = "#1e1f25",
+  overlay = "#282a2f",
+  muted = "#c5c6d0",
+  subtle = "#8f9099",
+  text = "#e2e2e9",
+  love = "#ffb4ab",
+  gold = "#dfbbde",
+  rose = "#bfc6dc",
+  pine = "#afc6ff",
+  foam = "#2d4578",
+  iris = "#593e5a",
+  highlight_low = "#1a1b20",
+  highlight_med = "#1e1f25",
+  highlight_high = "#33353a",
+}

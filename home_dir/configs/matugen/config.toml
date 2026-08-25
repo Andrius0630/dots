@@ -1,0 +1,47 @@
+[config]
+
+[templates.kde]
+input_path = '~/.config/matugen/templates/kde.colors'
+output_path = '~/.local/share/color-schemes/Matugen.colors'
+post_hook = 'plasma-apply-colorscheme BreezeDark; plasma-apply-colorscheme Matugen && qdbus6 org.kde.KWin /KWin reconfigure'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/colors-matugen.conf'
+post_hook = 'kitty @ set-colors -a -c ~/.config/kitty/colors-matugen.conf'
+
+[templates.tmux]
+input_path = '~/.config/matugen/templates/tmux.conf'
+output_path = '~/.config/tmux/colors-matugen.conf'
+post_hook = 'tmux source-file ~/.config/tmux/tmux.conf'
+
+[templates.nvim]
+input_path = '~/.config/matugen/templates/nvim.lua'
+output_path = '~/.config/nvim/lua/matugen-colors.lua'
+
+[templates.zsh]
+input_path = '~/.config/matugen/templates/zsh.sh'
+output_path = '~/.config/zsh/colors-matugen.zsh'
+
+[templates.dunst]
+input_path = '~/.config/matugen/templates/dunst.conf'
+output_path = '~/.config/dunst/dunstrc.d/50-matugen.conf'
+post_hook = 'pgrep -x dunst >/dev/null && dunstctl reload; true'
+
+[templates.polybar]
+input_path = '~/.config/matugen/templates/polybar.ini'
+output_path = '~/.config/polybar/colors-matugen.ini'
+post_hook = 'pgrep -x polybar >/dev/null && polybar-msg cmd restart; true'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi.rasi'
+output_path = '~/.config/rofi/colors-matugen.rasi'
+
+[templates.kate]
+input_path = '~/.config/matugen/templates/kate.theme'
+output_path = '~/.local/share/org.kde.syntax-highlighting/themes/matugen.theme'
+
+[templates.vscode]
+input_path = '~/.config/matugen/templates/vscode-colors.json'
+output_path = '~/.config/matugen/generated/vscode-colors.json'
+post_hook = 'sh ~/.config/matugen/scripts/apply-vscode-colors.sh'
