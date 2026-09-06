@@ -26,3 +26,7 @@ git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete ~/.oh-my-z
 
 yay -S veracrypt cataclysm-dda-tiles wireguard-tools networkmanager-fortisslvpn networkmanager-l2tp networkmanager-openconnect
 
+
+
+# install virtualization
+# yay -S virt-manager qemu-base qemu-guest-agent

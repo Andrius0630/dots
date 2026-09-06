@@ -1,2 +1,5 @@
+[Adapters]
+3C:9C:0F:7F:45:F8_powered=true
+
 [Devices]
 connectedDevices=

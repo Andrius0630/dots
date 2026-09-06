@@ -124,6 +124,7 @@ compinit
 alias ll='ls -lah'
 alias l='ls -lah'
 alias v='nvim'
+alias k='kate'
 alias vim='nvim'
 alias n='nvim'
 alias sl='sl -le'
